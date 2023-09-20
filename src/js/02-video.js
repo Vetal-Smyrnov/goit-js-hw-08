@@ -19,7 +19,6 @@ function getTimeFromStorage() {
 
 function init() {
   const player = new Player(iframe);
-
   const currentTime = getTimeFromStorage();
 
   player
